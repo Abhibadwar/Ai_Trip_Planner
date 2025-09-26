@@ -21,9 +21,6 @@ This project is an AI-powered **Travel Planner** web application built with **St
 * **Backend:** FastAPI
 * **AI/Agentic Workflow:** LangChain, Groq, LangGraph
 * **Data Management:** Pydantic, dotenv
-* **HTTP Communication:** Requests, HTTPX
-* **Middleware:** CORS via FastAPI
-
 ---
 
 ## Installation
@@ -89,4 +86,5 @@ streamlit run app.py
 ├── requirements.txt        # Python dependencies
 ├── .env                    # Environment variables
 └── README.md               # Documentation
+
 
