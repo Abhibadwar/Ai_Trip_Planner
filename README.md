@@ -1,9 +1,3 @@
-Got it ✅ You want to include instructions for running this project in a **`uv` environment** (the new fast Python package manager from Astral). I’ll extend the README accordingly.
-
-Here’s the updated version with **`uv` setup steps** included:
-
----
-
 # 🌍 Travel Planner Agentic Application
 
 This project is an AI-powered **Travel Planner** web application built with **Streamlit** for the frontend and **FastAPI** for the backend. It generates personalized travel plans using an agentic workflow powered by AI models (e.g., Groq) and provides visual representations of planning graphs.
@@ -95,3 +89,4 @@ streamlit run app.py
 ├── requirements.txt        # Python dependencies
 ├── .env                    # Environment variables
 └── README.md               # Documentation
+
