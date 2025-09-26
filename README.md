@@ -73,18 +73,3 @@ uvicorn main:app --reload
 streamlit run app.py
 ```
 
-## File Structure
-
-```
-├── app.py                  # Streamlit frontend
-├── main.py                 # FastAPI backend
-├── agent/
-│   └── agentic_workflow.py # Agent logic and GraphBuilder
-├── utils/
-│   └── save_to_document.py # Save outputs to files
-├── my_graph.png            # Generated planning graph
-├── requirements.txt        # Python dependencies
-├── .env                    # Environment variables
-└── README.md               # Documentation
-
-
